@@ -1,0 +1,106 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#nav-bar > h1{
+    display: inline-block;
+    height: 10%;
+    padding-right: 50px;
+}
+.title-head{
+    margin-right: 50%;
+    margin-left: 5%;
+}
+
+h1 > img {
+    max-width: 100%;
+    height: 30px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: auto 5% auto 5%;
+}
+.item-image > img{
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 1%;
+    border-radius: 8px;
+    
+}
+
+#nav-bar >h1 > img:hover{
+   cursor: pointer;
+   border-bottom: #d45 solid 1px;
+    
+}
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+  
+  .label-warning[href],
+  .badge-warning[href] {
+    background-color: #c67605;
+  }
+  #lblCartCount {
+      font-size: 12px;
+      background: #2f52ec;
+      color: #fff;
+      padding: 0 5px;
+      vertical-align: top;
+      margin-left: -10px; 
+  }
+
+#lblWishCount{
+    font-size: 12px;
+    background: #2f52ec;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px; 
+}
+.add-to-cart{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.add-to-cart > button{
+    background-color: #d4093c;
+    outline: none;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 16px;
+    color: #f1f1f1;
+    align-items: center;
+    margin: auto 5%;
+    font-weight: 600;
+    
+}
+
+.add-to-wish > button{
+    background-color: #d4093c;
+    outline: none;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 16px;
+    color: #f1f1f1;
+    align-items: center;
+    margin: 1% 5%;
+    font-weight: 600;
+    
+}
+
+.add-to-cart > button:hover {
+    cursor: pointer;
+    background-color: #f0023e;
+    
+}
+
+.add-to-wish > button:hover {
+    cursor: pointer;
+    background-color: #f0023e;
+}
